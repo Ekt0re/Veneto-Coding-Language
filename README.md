@@ -64,7 +64,8 @@ CVenteo è un linguaggio di programmazione basato sulla sintassi del C, con le p
 
 ## Esempio di Codice
 
-```#sonta <stdio.h>
+```
+#sonta <stdio.h>
 
 intero principale() {
     létara saluto[] = "Ciao Venezia!";
