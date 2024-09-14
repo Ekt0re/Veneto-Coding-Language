@@ -8,6 +8,19 @@ CVenteo è un linguaggio di programmazione basato sulla sintassi del C, con le p
 - **Parole chiave tradotte**: La maggior parte delle parole chiave del C sono state tradotte in dialetto, mantenendo la logica originale del linguaggio.
 - **Compatibilità**: Il linguaggio è pensato per essere compilabile con un compilatore C standard, previa traduzione automatica delle parole chiave.
 
+## Prerequisiti
+
+- **GCC**: Assicurarsi di avere GCC installato sul sistema e che sia configurato correttamente nel percorso (Path) di Windows.
+- **Sistema Operativo**: Windows 10/11.
+
+## Istruzioni per Compilazione ed Esecuzione
+
+1. Inserire tutti i file del proggetto(`.cve`,`.txt`,`.csv`,ecc) nella cartella `InputCVE`.
+2. Eseguire lo script `run.bat`, che:
+   - Tradurrà il codice da `.cve` a `.c`.
+   - Compilerà il codice tradotto utilizzando il compilatore GCC.
+   - Eseguirà il programma compilato.
+   
 ## Parole Chiave Tradotte
 
 | C         | CVenteo       |
@@ -57,18 +70,4 @@ intero principale() {
     létara saluto[] = "Ciao Venezia!";
     stampa("%s\n", saluto);
     torna 0;
-}´´´
-
-
-## Prerequisiti
-
-- **GCC**: Assicurarsi di avere GCC installato sul sistema e che sia configurato correttamente nel percorso (Path) di Windows.
-- **Sistema Operativo**: Windows 10/11.
-
-## Istruzioni per Compilazione ed Esecuzione
-
-1. Inserire tutti i file del proggetto(`.cve`,`.txt`,`.csv`,ecc) nella cartella `InputCVE`.
-2. Eseguire lo script `run.bat`, che:
-   - Tradurrà il codice da `.cve` a `.c`.
-   - Compilerà il codice tradotto utilizzando il compilatore GCC.
-   - Eseguirà il programma compilato.
+}
