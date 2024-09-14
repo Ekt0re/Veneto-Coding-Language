@@ -57,7 +57,7 @@ intero principale() {
     létara saluto[] = "Ciao Venezia!";
     stampa("%s\n", saluto);
     torna 0;
-}```
+}´´´
 
 
 ## Prerequisiti
