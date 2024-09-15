@@ -1,6 +1,6 @@
-# Venteo Programming Language
+# Veneteo Programming Language
 
-CVenteo è un linguaggio di programmazione basato sulla sintassi del C, con le parole chiave tradotte in dialetto Veneto. I file sorgente in questo linguaggio hanno estensione `.cve`. Questo linguaggio è stato progettato per mantenere la potenza e la flessibilità del C, ma con una sintassi localizzata.
+CVeneteo è un linguaggio di programmazione basato sulla sintassi del C, con le parole chiave tradotte in dialetto Veneto. I file sorgente in questo linguaggio hanno estensione `.cve`. Questo linguaggio è stato progettato per mantenere la potenza e la flessibilità del C, ma con una sintassi localizzata.
 
 ## Caratteristiche Principali
 
@@ -23,7 +23,7 @@ CVenteo è un linguaggio di programmazione basato sulla sintassi del C, con le p
    
 ## Parole Chiave Tradotte
 
-| C         | CVenteo       |
+| C         | CVeneteo      |
 | --------- | ------------- |
 | `#include`| `#sonta`      |
 | `int`     | `intero`      |
